@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root{
+    --preparation-time-bg: #FFF7FC;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+}
+
+.dish-image{
+    width: 100%;
+}
+
+.title{
+    font-family: 'Young Serif', sans-serif;
+}
+
+.container{
+    margin: 2.28em 2em;
+}
+
+.container h1{
+    font-size: 2.2em;
+    line-height: 1em;
+}
+
+.container .dish-info{
+    margin-top: 1.6em;
+    line-height: 1.5em;
+}
+
+.preparation-time{
+    margin-top: 2em;
+    padding: 1.3em 1.5em;
+    background-color: var(--preparation-time-bg);
+    border-radius: 10px;
+}
+
+.preparation-time p{
+    font-size: 1.25em;
+    font-weight: 600;
+    color: hsl(332, 51%, 32%);
+}
