@@ -23,6 +23,7 @@ body{
 .container h1{
     font-size: 2.2em;
     line-height: 1em;
+    font-weight: 500;
 }
 
 .container .dish-info{
@@ -41,4 +42,24 @@ body{
     font-size: 1.25em;
     font-weight: 600;
     color: hsl(332, 51%, 32%);
+}
+
+.preparation-time .ul-time{
+    margin: 1em 1.55em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.85em;
+    max-width: 200px;
+}
+
+h2{
+    margin-top: 0.6em;
+    font-size: 1.76em;
+}
+
+.ul-ingredients{
+    margin: 1em 1.55em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.85em;
 }
