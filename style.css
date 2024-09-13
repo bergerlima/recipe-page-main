@@ -73,7 +73,7 @@ hr{
 }
 
 .ingredients{
-    margin-top: 0.57em;
+    margin-top: 1em;
 }
 
 .ul-ingredients{
@@ -88,7 +88,7 @@ hr{
 }
 
 .ol-instructions{
-    margin: 1.2em 1.5em;
+    margin: 1.2em 1.5em 1.8em;
     display: flex;
     flex-direction: column;
     gap: 0.5em;
@@ -96,7 +96,7 @@ hr{
 }
 
 .nutrition{
-    margin-top: 1.3em;
+    margin-top: 1em;
 }
 
 .nutrition-info{
@@ -106,6 +106,9 @@ hr{
 
 .nutritional-table{
     margin: 1.6em 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 
 .nutritional-table-row{
@@ -116,7 +119,3 @@ hr{
 .bold{
     font-weight: bold;
 }
-
-/* p .bold{
-    color: var(--Brown-800);
-} */
